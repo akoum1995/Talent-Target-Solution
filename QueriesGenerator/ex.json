@@ -1,0 +1,12 @@
+{
+  "accounts": [
+    {
+      "key": "AIzaSyAOAvaZqUO-txcrzhVxRJGQTV0YFzxklbc",
+      "cx": "018098362405566253401:oktuwiqygoo"
+    }
+  ],
+  "name": "googlewithapi",
+  "trust_ratio": 60,
+  "api": "http://127.0.0.1:5002/search-engine/google",
+  "port": "5002"
+}

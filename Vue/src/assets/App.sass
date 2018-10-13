@@ -1,0 +1,175 @@
+$color: #FF9800
+
+\:root
+    --mdc-theme-primary: $color
+
+.themed
+    color: $color !important
+.module
+  width: 100%
+  margin: 20px auto
+
+.wrapper100
+    max-width: 100%
+    margin-left: auto
+    margin-right: auto
+
+.wrapper100.ai-window
+    padding: 1rem
+
+
+
+.title
+    vertical-align: middle
+    text-align: center
+    font-weight: 700
+    color: rgba(0,0,0,0.7)
+    margin-top: 5%
+
+.query
+    padding: 16px 0px
+    background-color: white
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+    z-index: 999
+    position: fixed
+    width: 80%
+
+.queryform
+    border: 0
+    width: 100% -50%
+    margin-left: 60px
+    font-size: 16px
+    outline: none
+    color: rgba(0,0,0,0.8)
+    font-weight: 500
+
+
+
+.iicon
+    position: absolute
+    vertical-align: middle
+    color: rgba(0,0,0,0.8)
+    cursor: pointer
+
+.recording
+    color: #F44336
+
+.iicon.t2s
+    margin-left: 270px
+    margin-right: 20px
+    margin-top: -22px
+
+
+.chat-window
+    width: 100%
+
+.bubble
+    max-width: 100%
+    background-color: #E1E1E1
+    padding: 16px
+    border-radius: 8px
+    color: rgba(0,0,0,0.7)
+    float: right
+    animation: msg .25s linear
+
+.bubble.bot
+    background-color: white
+    float: left
+    margin-right: 10px
+
+td
+    margin-top: 30px
+    margin-bottom: 10px
+
+.mdc-card
+    background-color: white
+    max-width: 100%
+    margin-bottom: 5px
+    animation: msg .45s ease-in-out
+
+.slide
+    margin: 5px
+    max-width: 100%
+
+.slider
+    max-width: 100%
+    margin-left: -5px
+
+.mdc-fab
+    background-color: white
+    color: $color
+
+.rightnav
+    margin-left: -32px
+
+.leftnav
+    margin-right: -35px
+
+
+
+.openlink
+    vertical-align: middle
+    margin-top: -5px
+    margin-left: 5px
+
+.mdc-card__media-item
+    height: auto
+    width: 100%
+    margin-top: -5px
+
+.chips
+    margin-left: -10px
+
+.suggestion
+    margin-top: 10px
+    float: left
+    margin-left: 10px
+    padding: 10px
+    border: 2px rgba(0,0,0,0.5) solid
+    color: rgba(0,0,0,0.5)
+    border-radius: 6px
+    cursor: pointer
+    animation: controls .25s linear
+
+.suggestion:active
+    border: 2px rgba(0,0,0,1) solid
+    color: rgba(0,0,0,1)
+
+.suggestion.link
+    color: white
+    background-color: $color
+    border: 2px $color solid
+
+.suggestion.link:active
+    background-color: darken($color, 10%)
+    border: 2px darken($color, 10%) solid
+
+.mdc-list-item__start-detail
+    border-radius: 50%
+
+@keyframes msg
+    0%
+        opacity: 0
+        transform: scale(0.8)
+    100%
+        opacity: 1
+        transform: scale(1)
+
+@keyframes controls
+    0%
+        transform: scaleY(0)
+    100%
+        transform: scaleY(1)
+
+.copyright
+    font-weight: 600
+    color: rgba(0,0,0,0.8)
+
+.copyright a
+    text-decoration: none
+    color: rgba(0,0,0,0.8)
+    border-bottom: 2px solid transparent
+
+.copyright a:hover
+    color: $color
+    border-bottom: 2px solid $color
