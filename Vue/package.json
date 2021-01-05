@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "api-ai-javascript": "^2.0.0-beta.21",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chart.js": "^2.7.2",
     "html2pdf.js": "^0.8.2",
     "lodash": "^4.17.5",
